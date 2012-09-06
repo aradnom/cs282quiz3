@@ -1,3 +1,0 @@
-/home/cs/shaw/cs282/work/quiz3/triangles/build/gtest-1.6.0/CMakeFiles/gtest.dir
-/home/cs/shaw/cs282/work/quiz3/triangles/build/gtest-1.6.0/CMakeFiles/gtest_main.dir
-/home/cs/shaw/cs282/work/quiz3/triangles/build/CMakeFiles/tests.dir
