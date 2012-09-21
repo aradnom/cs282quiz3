@@ -1,0 +1,13 @@
+#include <cstdlib>
+#include <iostream>
+#include "clock.h"
+
+using namespace simphys;
+using namespace std;
+
+int main ( int argc, char *argv[] ) {
+	Clock c;
+
+	cout << "Done, exiting...";
+	cin.get();
+}

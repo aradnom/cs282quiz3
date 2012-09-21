@@ -1,0 +1,8 @@
+#include "Shape.h"
+
+class Square : public Shape {
+public:
+	void draw () {
+		cout << "drew a square";
+	}
+};

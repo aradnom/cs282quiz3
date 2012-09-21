@@ -1,0 +1,7 @@
+class Shape {
+protected:
+	int size; // Could be width/height or radius
+
+public:
+	virtual void draw () = 0;
+};
