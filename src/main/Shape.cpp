@@ -1,3 +1,10 @@
+#ifndef SHAPE
+#define SHAPE
+
+#include <string>
+
+using namespace std;
+
 class Shape {
 protected:
 	int size; // Could be width/height or radius
@@ -6,5 +13,8 @@ public:
 	Shape ( float _size ) {
 		size = _size;
 	}
-	virtual void draw () = 0;
+	virtual string draw () = 0;
+	virtual float area () = 0;
 };
+
+#endif

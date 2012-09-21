@@ -3,7 +3,6 @@
 #include "gtest/gtest.h"
 
 #include "Circle.cpp"
-#include "Square.cpp"
 
 const float PI = 3.14159265f;
 
