@@ -234,15 +234,21 @@ cxxabi.h
 acxx_demangle.h
 -
 
-/home/cs/shaw/cs282/work/quiz3/master/src/main/Circle.cpp
-Shape.h
-/home/cs/shaw/cs282/work/quiz3/master/src/main/Shape.h
+../src/main/Circle.cpp
+string
+-
+Shape.cpp
+../src/main/Shape.cpp
 
-/home/cs/shaw/cs282/work/quiz3/master/src/main/Shape.cpp
+../src/main/Shape.cpp
+string
+-
 
-/home/cs/shaw/cs282/work/quiz3/master/src/main/Square.cpp
-Shape.h
-/home/cs/shaw/cs282/work/quiz3/master/src/main/Shape.h
+../src/main/Square.cpp
+string
+-
+Shape.cpp
+../src/main/Shape.cpp
 
 /home/cs/shaw/cs282/work/quiz3/master/src/test/lab4tests.cpp
 memory
@@ -251,4 +257,10 @@ vector
 -
 gtest/gtest.h
 /home/cs/shaw/cs282/work/quiz3/master/src/test/gtest/gtest.h
+Circle.cpp
+/home/cs/shaw/cs282/work/quiz3/master/src/test/Circle.cpp
+Square.cpp
+/home/cs/shaw/cs282/work/quiz3/master/src/test/Square.cpp
+iostream
+-
 

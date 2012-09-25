@@ -3,9 +3,11 @@
 
 CMakeFiles/tests.dir/src/main/Circle.cpp.o
  /home/cs/shaw/cs282/work/quiz3/master/src/main/Circle.cpp
+ /home/cs/shaw/cs282/work/quiz3/master/src/main/Shape.cpp
 CMakeFiles/tests.dir/src/main/Shape.cpp.o
  /home/cs/shaw/cs282/work/quiz3/master/src/main/Shape.cpp
 CMakeFiles/tests.dir/src/main/Square.cpp.o
+ /home/cs/shaw/cs282/work/quiz3/master/src/main/Shape.cpp
  /home/cs/shaw/cs282/work/quiz3/master/src/main/Square.cpp
 CMakeFiles/tests.dir/src/test/lab4tests.cpp.o
  ../gtest-1.6.0/include/gtest/gtest-death-test.h
@@ -27,4 +29,7 @@ CMakeFiles/tests.dir/src/test/lab4tests.cpp.o
  ../gtest-1.6.0/include/gtest/internal/gtest-string.h
  ../gtest-1.6.0/include/gtest/internal/gtest-tuple.h
  ../gtest-1.6.0/include/gtest/internal/gtest-type-util.h
+ ../src/main/Circle.cpp
+ ../src/main/Shape.cpp
+ ../src/main/Square.cpp
  /home/cs/shaw/cs282/work/quiz3/master/src/test/lab4tests.cpp

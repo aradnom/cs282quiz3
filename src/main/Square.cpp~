@@ -7,15 +7,21 @@
 using namespace std;
 
 class Square : public Shape {
-public:
-	Square ( float _size ) : Shape( _size ) {}
+private:
+	float l, w;
 
-	void draw () {
+public:
+	Square ( float _size ) {
+		l = _size;
+		w = _size;
+	}
+
+	string draw () {
 		return "drew a square";
 	}
 	
 	float area () {
-		return 0.0f;
+		return length * width;
 	}
 };
 

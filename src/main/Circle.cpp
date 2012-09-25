@@ -7,15 +7,20 @@
 using namespace std;
 
 class Circle : public Shape {
+private:
+	float r;
+
 public:
-	Circle ( float _size ) : Shape( _size ) {}
+	Circle ( float _r ) {
+		r = _r;
+	}
 
 	string draw () {
 		return "drew a circle";
 	}
 
 	float area () {
-		return 0.0f;
+		return 3.14159265f * r * r;
 	}
 };
 

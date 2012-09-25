@@ -3,9 +3,11 @@
 
 #include <string>
 
+using namespace std;
+
 class Shape {
 protected:
-	int size; // Could be width/height or radius
+	float size; // Could be width/height or radius
 
 public:
 	Shape ( float _size ) {
