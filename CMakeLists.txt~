@@ -36,7 +36,9 @@ include_directories(${PROJECT_SOURCE_DIR}/gtest-1.6.0/include)
 # binary named tests
 add_executable(tests 
   src/test/lab4tests.cpp
-  src/main/clock.cpp
+  src/main/Shape.cpp
+  src/main/Square.cpp
+  src/main/Circle.cpp
 )
 
 # Main

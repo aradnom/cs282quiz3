@@ -1,4 +1,4 @@
-# Install script for directory: /home/cs/shaw/cs282/work/quiz3/master/gtest-1.6.0
+# Install script for directory: /home/cs/shaw/cs282/work/quiz3/triangles/gtest-1.6.0
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)

@@ -2,7 +2,7 @@ FILE(REMOVE_RECURSE
   "CMakeFiles/tests.dir/src/test/lab4tests.cpp.o"
   "CMakeFiles/tests.dir/src/main/Shape.cpp.o"
   "CMakeFiles/tests.dir/src/main/Square.cpp.o"
-  "CMakeFiles/tests.dir/src/main/Circle.cpp.o"
+  "CMakeFiles/tests.dir/src/main/Triangle.cpp.o"
   "../bin/tests.pdb"
   "../bin/tests"
 )

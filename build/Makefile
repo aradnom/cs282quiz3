@@ -36,10 +36,10 @@ CMAKE_COMMAND = /usr/bin/cmake
 RM = /usr/bin/cmake -E remove -f
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/cs/shaw/cs282/work/quiz3/master
+CMAKE_SOURCE_DIR = /home/cs/shaw/cs282/work/quiz3/triangles
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/cs/shaw/cs282/work/quiz3/master/build
+CMAKE_BINARY_DIR = /home/cs/shaw/cs282/work/quiz3/triangles/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -66,9 +66,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/cs/shaw/cs282/work/quiz3/master/build/CMakeFiles /home/cs/shaw/cs282/work/quiz3/master/build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/cs/shaw/cs282/work/quiz3/triangles/build/CMakeFiles /home/cs/shaw/cs282/work/quiz3/triangles/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/cs/shaw/cs282/work/quiz3/master/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/cs/shaw/cs282/work/quiz3/triangles/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -134,30 +134,6 @@ gtest_main/fast:
 	$(MAKE) -f gtest-1.6.0/CMakeFiles/gtest_main.dir/build.make gtest-1.6.0/CMakeFiles/gtest_main.dir/build
 .PHONY : gtest_main/fast
 
-src/main/Circle.o: src/main/Circle.cpp.o
-.PHONY : src/main/Circle.o
-
-# target to build an object file
-src/main/Circle.cpp.o:
-	$(MAKE) -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/src/main/Circle.cpp.o
-.PHONY : src/main/Circle.cpp.o
-
-src/main/Circle.i: src/main/Circle.cpp.i
-.PHONY : src/main/Circle.i
-
-# target to preprocess a source file
-src/main/Circle.cpp.i:
-	$(MAKE) -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/src/main/Circle.cpp.i
-.PHONY : src/main/Circle.cpp.i
-
-src/main/Circle.s: src/main/Circle.cpp.s
-.PHONY : src/main/Circle.s
-
-# target to generate assembly for a file
-src/main/Circle.cpp.s:
-	$(MAKE) -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/src/main/Circle.cpp.s
-.PHONY : src/main/Circle.cpp.s
-
 src/main/Shape.o: src/main/Shape.cpp.o
 .PHONY : src/main/Shape.o
 
@@ -206,6 +182,30 @@ src/main/Square.cpp.s:
 	$(MAKE) -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/src/main/Square.cpp.s
 .PHONY : src/main/Square.cpp.s
 
+src/main/Triangle.o: src/main/Triangle.cpp.o
+.PHONY : src/main/Triangle.o
+
+# target to build an object file
+src/main/Triangle.cpp.o:
+	$(MAKE) -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/src/main/Triangle.cpp.o
+.PHONY : src/main/Triangle.cpp.o
+
+src/main/Triangle.i: src/main/Triangle.cpp.i
+.PHONY : src/main/Triangle.i
+
+# target to preprocess a source file
+src/main/Triangle.cpp.i:
+	$(MAKE) -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/src/main/Triangle.cpp.i
+.PHONY : src/main/Triangle.cpp.i
+
+src/main/Triangle.s: src/main/Triangle.cpp.s
+.PHONY : src/main/Triangle.s
+
+# target to generate assembly for a file
+src/main/Triangle.cpp.s:
+	$(MAKE) -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/src/main/Triangle.cpp.s
+.PHONY : src/main/Triangle.cpp.s
+
 src/test/lab4tests.o: src/test/lab4tests.cpp.o
 .PHONY : src/test/lab4tests.o
 
@@ -241,15 +241,15 @@ help:
 	@echo "... tests"
 	@echo "... gtest"
 	@echo "... gtest_main"
-	@echo "... src/main/Circle.o"
-	@echo "... src/main/Circle.i"
-	@echo "... src/main/Circle.s"
 	@echo "... src/main/Shape.o"
 	@echo "... src/main/Shape.i"
 	@echo "... src/main/Shape.s"
 	@echo "... src/main/Square.o"
 	@echo "... src/main/Square.i"
 	@echo "... src/main/Square.s"
+	@echo "... src/main/Triangle.o"
+	@echo "... src/main/Triangle.i"
+	@echo "... src/main/Triangle.s"
 	@echo "... src/test/lab4tests.o"
 	@echo "... src/test/lab4tests.i"
 	@echo "... src/test/lab4tests.s"

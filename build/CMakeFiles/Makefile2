@@ -44,10 +44,10 @@ CMAKE_COMMAND = /usr/bin/cmake
 RM = /usr/bin/cmake -E remove -f
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/cs/shaw/cs282/work/quiz3/master
+CMAKE_SOURCE_DIR = /home/cs/shaw/cs282/work/quiz3/triangles
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/cs/shaw/cs282/work/quiz3/master/build
+CMAKE_BINARY_DIR = /home/cs/shaw/cs282/work/quiz3/triangles/build
 
 #=============================================================================
 # Target rules for target CMakeFiles/tests.dir
@@ -56,7 +56,7 @@ CMAKE_BINARY_DIR = /home/cs/shaw/cs282/work/quiz3/master/build
 CMakeFiles/tests.dir/all: gtest-1.6.0/CMakeFiles/gtest_main.dir/all
 	$(MAKE) -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/depend
 	$(MAKE) -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/cs/shaw/cs282/work/quiz3/master/build/CMakeFiles  3 4 5 6
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/cs/shaw/cs282/work/quiz3/triangles/build/CMakeFiles  3 4 5 6
 	@echo "Built target tests"
 .PHONY : CMakeFiles/tests.dir/all
 
@@ -66,9 +66,9 @@ all: CMakeFiles/tests.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/tests.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/cs/shaw/cs282/work/quiz3/master/build/CMakeFiles 6
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/cs/shaw/cs282/work/quiz3/triangles/build/CMakeFiles 6
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/tests.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/cs/shaw/cs282/work/quiz3/master/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/cs/shaw/cs282/work/quiz3/triangles/build/CMakeFiles 0
 .PHONY : CMakeFiles/tests.dir/rule
 
 # Convenience name for target.
@@ -108,7 +108,7 @@ gtest-1.6.0/preinstall:
 gtest-1.6.0/CMakeFiles/gtest.dir/all:
 	$(MAKE) -f gtest-1.6.0/CMakeFiles/gtest.dir/build.make gtest-1.6.0/CMakeFiles/gtest.dir/depend
 	$(MAKE) -f gtest-1.6.0/CMakeFiles/gtest.dir/build.make gtest-1.6.0/CMakeFiles/gtest.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/cs/shaw/cs282/work/quiz3/master/build/CMakeFiles  1
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/cs/shaw/cs282/work/quiz3/triangles/build/CMakeFiles  1
 	@echo "Built target gtest"
 .PHONY : gtest-1.6.0/CMakeFiles/gtest.dir/all
 
@@ -118,9 +118,9 @@ all: gtest-1.6.0/CMakeFiles/gtest.dir/all
 
 # Build rule for subdir invocation for target.
 gtest-1.6.0/CMakeFiles/gtest.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/cs/shaw/cs282/work/quiz3/master/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/cs/shaw/cs282/work/quiz3/triangles/build/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 gtest-1.6.0/CMakeFiles/gtest.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/cs/shaw/cs282/work/quiz3/master/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/cs/shaw/cs282/work/quiz3/triangles/build/CMakeFiles 0
 .PHONY : gtest-1.6.0/CMakeFiles/gtest.dir/rule
 
 # Convenience name for target.
@@ -143,7 +143,7 @@ clean: gtest-1.6.0/CMakeFiles/gtest.dir/clean
 gtest-1.6.0/CMakeFiles/gtest_main.dir/all: gtest-1.6.0/CMakeFiles/gtest.dir/all
 	$(MAKE) -f gtest-1.6.0/CMakeFiles/gtest_main.dir/build.make gtest-1.6.0/CMakeFiles/gtest_main.dir/depend
 	$(MAKE) -f gtest-1.6.0/CMakeFiles/gtest_main.dir/build.make gtest-1.6.0/CMakeFiles/gtest_main.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/cs/shaw/cs282/work/quiz3/master/build/CMakeFiles  2
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/cs/shaw/cs282/work/quiz3/triangles/build/CMakeFiles  2
 	@echo "Built target gtest_main"
 .PHONY : gtest-1.6.0/CMakeFiles/gtest_main.dir/all
 
@@ -153,9 +153,9 @@ all: gtest-1.6.0/CMakeFiles/gtest_main.dir/all
 
 # Build rule for subdir invocation for target.
 gtest-1.6.0/CMakeFiles/gtest_main.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/cs/shaw/cs282/work/quiz3/master/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/cs/shaw/cs282/work/quiz3/triangles/build/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 gtest-1.6.0/CMakeFiles/gtest_main.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/cs/shaw/cs282/work/quiz3/master/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/cs/shaw/cs282/work/quiz3/triangles/build/CMakeFiles 0
 .PHONY : gtest-1.6.0/CMakeFiles/gtest_main.dir/rule
 
 # Convenience name for target.

@@ -38,7 +38,7 @@ add_executable(tests
   src/test/lab4tests.cpp
   src/main/Shape.cpp
   src/main/Square.cpp
-  src/main/Circle.cpp
+  src/main/Triangle.cpp
 )
 
 # Main

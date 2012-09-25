@@ -36,10 +36,10 @@ CMAKE_COMMAND = /usr/bin/cmake
 RM = /usr/bin/cmake -E remove -f
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/cs/shaw/cs282/work/quiz3/master
+CMAKE_SOURCE_DIR = /home/cs/shaw/cs282/work/quiz3/triangles
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/cs/shaw/cs282/work/quiz3/master/build
+CMAKE_BINARY_DIR = /home/cs/shaw/cs282/work/quiz3/triangles/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -66,14 +66,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/cs/shaw/cs282/work/quiz3/master/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/cs/shaw/cs282/work/quiz3/master/build/CMakeFiles /home/cs/shaw/cs282/work/quiz3/master/build/gtest-1.6.0/CMakeFiles/progress.marks
-	cd /home/cs/shaw/cs282/work/quiz3/master/build && $(MAKE) -f CMakeFiles/Makefile2 gtest-1.6.0/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/cs/shaw/cs282/work/quiz3/master/build/CMakeFiles 0
+	cd /home/cs/shaw/cs282/work/quiz3/triangles/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/cs/shaw/cs282/work/quiz3/triangles/build/CMakeFiles /home/cs/shaw/cs282/work/quiz3/triangles/build/gtest-1.6.0/CMakeFiles/progress.marks
+	cd /home/cs/shaw/cs282/work/quiz3/triangles/build && $(MAKE) -f CMakeFiles/Makefile2 gtest-1.6.0/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/cs/shaw/cs282/work/quiz3/triangles/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/cs/shaw/cs282/work/quiz3/master/build && $(MAKE) -f CMakeFiles/Makefile2 gtest-1.6.0/clean
+	cd /home/cs/shaw/cs282/work/quiz3/triangles/build && $(MAKE) -f CMakeFiles/Makefile2 gtest-1.6.0/clean
 .PHONY : clean
 
 # The main clean target
@@ -82,22 +82,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/cs/shaw/cs282/work/quiz3/master/build && $(MAKE) -f CMakeFiles/Makefile2 gtest-1.6.0/preinstall
+	cd /home/cs/shaw/cs282/work/quiz3/triangles/build && $(MAKE) -f CMakeFiles/Makefile2 gtest-1.6.0/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/cs/shaw/cs282/work/quiz3/master/build && $(MAKE) -f CMakeFiles/Makefile2 gtest-1.6.0/preinstall
+	cd /home/cs/shaw/cs282/work/quiz3/triangles/build && $(MAKE) -f CMakeFiles/Makefile2 gtest-1.6.0/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/cs/shaw/cs282/work/quiz3/master/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/cs/shaw/cs282/work/quiz3/triangles/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 gtest-1.6.0/CMakeFiles/gtest.dir/rule:
-	cd /home/cs/shaw/cs282/work/quiz3/master/build && $(MAKE) -f CMakeFiles/Makefile2 gtest-1.6.0/CMakeFiles/gtest.dir/rule
+	cd /home/cs/shaw/cs282/work/quiz3/triangles/build && $(MAKE) -f CMakeFiles/Makefile2 gtest-1.6.0/CMakeFiles/gtest.dir/rule
 .PHONY : gtest-1.6.0/CMakeFiles/gtest.dir/rule
 
 # Convenience name for target.
@@ -106,12 +106,12 @@ gtest: gtest-1.6.0/CMakeFiles/gtest.dir/rule
 
 # fast build rule for target.
 gtest/fast:
-	cd /home/cs/shaw/cs282/work/quiz3/master/build && $(MAKE) -f gtest-1.6.0/CMakeFiles/gtest.dir/build.make gtest-1.6.0/CMakeFiles/gtest.dir/build
+	cd /home/cs/shaw/cs282/work/quiz3/triangles/build && $(MAKE) -f gtest-1.6.0/CMakeFiles/gtest.dir/build.make gtest-1.6.0/CMakeFiles/gtest.dir/build
 .PHONY : gtest/fast
 
 # Convenience name for target.
 gtest-1.6.0/CMakeFiles/gtest_main.dir/rule:
-	cd /home/cs/shaw/cs282/work/quiz3/master/build && $(MAKE) -f CMakeFiles/Makefile2 gtest-1.6.0/CMakeFiles/gtest_main.dir/rule
+	cd /home/cs/shaw/cs282/work/quiz3/triangles/build && $(MAKE) -f CMakeFiles/Makefile2 gtest-1.6.0/CMakeFiles/gtest_main.dir/rule
 .PHONY : gtest-1.6.0/CMakeFiles/gtest_main.dir/rule
 
 # Convenience name for target.
@@ -120,7 +120,7 @@ gtest_main: gtest-1.6.0/CMakeFiles/gtest_main.dir/rule
 
 # fast build rule for target.
 gtest_main/fast:
-	cd /home/cs/shaw/cs282/work/quiz3/master/build && $(MAKE) -f gtest-1.6.0/CMakeFiles/gtest_main.dir/build.make gtest-1.6.0/CMakeFiles/gtest_main.dir/build
+	cd /home/cs/shaw/cs282/work/quiz3/triangles/build && $(MAKE) -f gtest-1.6.0/CMakeFiles/gtest_main.dir/build.make gtest-1.6.0/CMakeFiles/gtest_main.dir/build
 .PHONY : gtest_main/fast
 
 src/gtest-all.o: src/gtest-all.cc.o
@@ -128,7 +128,7 @@ src/gtest-all.o: src/gtest-all.cc.o
 
 # target to build an object file
 src/gtest-all.cc.o:
-	cd /home/cs/shaw/cs282/work/quiz3/master/build && $(MAKE) -f gtest-1.6.0/CMakeFiles/gtest.dir/build.make gtest-1.6.0/CMakeFiles/gtest.dir/src/gtest-all.cc.o
+	cd /home/cs/shaw/cs282/work/quiz3/triangles/build && $(MAKE) -f gtest-1.6.0/CMakeFiles/gtest.dir/build.make gtest-1.6.0/CMakeFiles/gtest.dir/src/gtest-all.cc.o
 .PHONY : src/gtest-all.cc.o
 
 src/gtest-all.i: src/gtest-all.cc.i
@@ -136,7 +136,7 @@ src/gtest-all.i: src/gtest-all.cc.i
 
 # target to preprocess a source file
 src/gtest-all.cc.i:
-	cd /home/cs/shaw/cs282/work/quiz3/master/build && $(MAKE) -f gtest-1.6.0/CMakeFiles/gtest.dir/build.make gtest-1.6.0/CMakeFiles/gtest.dir/src/gtest-all.cc.i
+	cd /home/cs/shaw/cs282/work/quiz3/triangles/build && $(MAKE) -f gtest-1.6.0/CMakeFiles/gtest.dir/build.make gtest-1.6.0/CMakeFiles/gtest.dir/src/gtest-all.cc.i
 .PHONY : src/gtest-all.cc.i
 
 src/gtest-all.s: src/gtest-all.cc.s
@@ -144,7 +144,7 @@ src/gtest-all.s: src/gtest-all.cc.s
 
 # target to generate assembly for a file
 src/gtest-all.cc.s:
-	cd /home/cs/shaw/cs282/work/quiz3/master/build && $(MAKE) -f gtest-1.6.0/CMakeFiles/gtest.dir/build.make gtest-1.6.0/CMakeFiles/gtest.dir/src/gtest-all.cc.s
+	cd /home/cs/shaw/cs282/work/quiz3/triangles/build && $(MAKE) -f gtest-1.6.0/CMakeFiles/gtest.dir/build.make gtest-1.6.0/CMakeFiles/gtest.dir/src/gtest-all.cc.s
 .PHONY : src/gtest-all.cc.s
 
 src/gtest_main.o: src/gtest_main.cc.o
@@ -152,7 +152,7 @@ src/gtest_main.o: src/gtest_main.cc.o
 
 # target to build an object file
 src/gtest_main.cc.o:
-	cd /home/cs/shaw/cs282/work/quiz3/master/build && $(MAKE) -f gtest-1.6.0/CMakeFiles/gtest_main.dir/build.make gtest-1.6.0/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o
+	cd /home/cs/shaw/cs282/work/quiz3/triangles/build && $(MAKE) -f gtest-1.6.0/CMakeFiles/gtest_main.dir/build.make gtest-1.6.0/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o
 .PHONY : src/gtest_main.cc.o
 
 src/gtest_main.i: src/gtest_main.cc.i
@@ -160,7 +160,7 @@ src/gtest_main.i: src/gtest_main.cc.i
 
 # target to preprocess a source file
 src/gtest_main.cc.i:
-	cd /home/cs/shaw/cs282/work/quiz3/master/build && $(MAKE) -f gtest-1.6.0/CMakeFiles/gtest_main.dir/build.make gtest-1.6.0/CMakeFiles/gtest_main.dir/src/gtest_main.cc.i
+	cd /home/cs/shaw/cs282/work/quiz3/triangles/build && $(MAKE) -f gtest-1.6.0/CMakeFiles/gtest_main.dir/build.make gtest-1.6.0/CMakeFiles/gtest_main.dir/src/gtest_main.cc.i
 .PHONY : src/gtest_main.cc.i
 
 src/gtest_main.s: src/gtest_main.cc.s
@@ -168,7 +168,7 @@ src/gtest_main.s: src/gtest_main.cc.s
 
 # target to generate assembly for a file
 src/gtest_main.cc.s:
-	cd /home/cs/shaw/cs282/work/quiz3/master/build && $(MAKE) -f gtest-1.6.0/CMakeFiles/gtest_main.dir/build.make gtest-1.6.0/CMakeFiles/gtest_main.dir/src/gtest_main.cc.s
+	cd /home/cs/shaw/cs282/work/quiz3/triangles/build && $(MAKE) -f gtest-1.6.0/CMakeFiles/gtest_main.dir/build.make gtest-1.6.0/CMakeFiles/gtest_main.dir/src/gtest_main.cc.s
 .PHONY : src/gtest_main.cc.s
 
 # Help Target
@@ -198,6 +198,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/cs/shaw/cs282/work/quiz3/master/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/cs/shaw/cs282/work/quiz3/triangles/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

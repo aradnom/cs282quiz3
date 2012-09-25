@@ -234,12 +234,6 @@ cxxabi.h
 acxx_demangle.h
 -
 
-../src/main/Circle.cpp
-string
--
-Shape.cpp
-../src/main/Shape.cpp
-
 ../src/main/Shape.cpp
 string
 -
@@ -250,33 +244,39 @@ string
 Shape.cpp
 ../src/main/Shape.cpp
 
-/home/cs/shaw/cs282/work/quiz3/master/src/main/Circle.cpp
+../src/main/Triangle.cpp
 string
 -
 Shape.cpp
-/home/cs/shaw/cs282/work/quiz3/master/src/main/Shape.cpp
+../src/main/Shape.cpp
 
-/home/cs/shaw/cs282/work/quiz3/master/src/main/Shape.cpp
+/home/cs/shaw/cs282/work/quiz3/triangles/src/main/Shape.cpp
 string
 -
 
-/home/cs/shaw/cs282/work/quiz3/master/src/main/Square.cpp
+/home/cs/shaw/cs282/work/quiz3/triangles/src/main/Square.cpp
 string
 -
 Shape.cpp
-/home/cs/shaw/cs282/work/quiz3/master/src/main/Shape.cpp
+/home/cs/shaw/cs282/work/quiz3/triangles/src/main/Shape.cpp
 
-/home/cs/shaw/cs282/work/quiz3/master/src/test/lab4tests.cpp
+/home/cs/shaw/cs282/work/quiz3/triangles/src/main/Triangle.cpp
+string
+-
+Shape.cpp
+/home/cs/shaw/cs282/work/quiz3/triangles/src/main/Shape.cpp
+
+/home/cs/shaw/cs282/work/quiz3/triangles/src/test/lab4tests.cpp
 memory
 -
 vector
 -
 gtest/gtest.h
-/home/cs/shaw/cs282/work/quiz3/master/src/test/gtest/gtest.h
-Circle.cpp
-/home/cs/shaw/cs282/work/quiz3/master/src/test/Circle.cpp
+/home/cs/shaw/cs282/work/quiz3/triangles/src/test/gtest/gtest.h
+Triangle.cpp
+/home/cs/shaw/cs282/work/quiz3/triangles/src/test/Triangle.cpp
 Square.cpp
-/home/cs/shaw/cs282/work/quiz3/master/src/test/Square.cpp
+/home/cs/shaw/cs282/work/quiz3/triangles/src/test/Square.cpp
 iostream
 -
 
