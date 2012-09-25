@@ -11,16 +11,14 @@ private:
 	float r;
 
 public:
-	Circle ( float _r ) {
-		r = _r;
-	}
+	Circle ( float _size ) : Shape ( _size ) {}
 
 	string draw () {
 		return "drew a circle";
 	}
 
 	float area () {
-		return 3.14159265f * r * r;
+		return 3.14159265f * size * size;
 	}
 };
 

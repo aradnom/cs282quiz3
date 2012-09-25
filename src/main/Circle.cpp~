@@ -3,7 +3,6 @@
 
 #include <string>
 #include "Shape.cpp"
-#include "math.h"
 
 using namespace std;
 
@@ -12,9 +11,7 @@ private:
 	float r;
 
 public:
-	Circle ( float _r ) {
-		r = _r;
-	}
+	Circle ( float _r ) : Shape ( _size ) {}
 
 	string draw () {
 		return "drew a circle";
